@@ -53,7 +53,7 @@ class GameObject:
     def draw(self):
         """Метод отрисовки объекта на экране для наследования."""
         raise NotImplementedError(
-            f"Метод draw() не определен в классе {self.__class__.__name__}."
+            f'Метод draw() не определен в классе {self.__class__.__name__}.'
         )
 
     def draw_cell(self, position, body_color=None, border_color=BORDER_COLOR):
